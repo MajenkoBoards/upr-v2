@@ -1,0 +1,17 @@
+Source: upr-v2
+Section: boards
+XBSC-Group: Majenko Technologies
+Priority: extra
+XBSC-Family: pic18
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: upr-v2
+Architecture: all
+Depends: pic18, libleddisplay-pic18
+Description: Micro Pulse Rifle Board V2
+ The Micro Pulse Rifle Board is a tiny LED display board with a
+ PIC18 providing an active ammo counter system for replica
+ Alien M41A Pulse Rifle props.
+
